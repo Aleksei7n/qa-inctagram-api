@@ -168,6 +168,7 @@ Expected Result:
 - Ответ предсказуем по контракту (ошибка валидации/redirect), но **не 500**.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/google/callback/...`
 
@@ -196,6 +197,7 @@ Expected Result:
 - Нет чувствительных данных (private keys).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/recaptcha-site-key/...`
 
@@ -397,6 +399,7 @@ Expected Result:
 - Нет 500.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/github/...`
 
@@ -424,6 +427,7 @@ Expected Result:
 - Предсказуемый ответ по контракту, **не 500**.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/github/callback/...`
 
@@ -454,5 +458,6 @@ Expected Result:
 - Нет лишних чувствительных данных (пароль/хэши/секреты).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/me/...`
