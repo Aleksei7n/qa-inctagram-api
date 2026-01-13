@@ -36,5 +36,6 @@ Expected Result:
 - Возвращается список постов подписок (может быть пустым), структура по контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/following/posts/{endCursorPostId}/...`
