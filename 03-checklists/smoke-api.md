@@ -1,7 +1,7 @@
 # Smoke Checklist — Inctagram API (v1)
 
 ## Auth
-- [ ] POST `/auth/registration` возвращает ожидаемый статус (201/204/200 — согласно контракту) / или валидную ошибку
+- [ ] POST `/auth/registration` возвращает ожидаемый статус (201) / или валидную ошибку
 - [ ] POST `/auth/login` → получаем `accessToken`
 - [ ] POST `/auth/refresh-token` (с валидным refresh) → новый `accessToken`
 - [ ] POST `/auth/logout` → 204
@@ -14,16 +14,16 @@
 ## Users/Profile
 - [ ] GET `/users/profile` (с токеном) → 200
 - [ ] PUT `/users/profile` → 200 + данные обновились
-- [ ] PUT `/users/password` → 204/200 (согласно контракту)
+- [ ] PUT `/users/password` → 204
 
 ## Posts
-- [ ] POST `/posts` → пост создан (201/200)
+- [ ] POST `/posts` → пост создан (201)
 - [ ] GET `/posts` → пост виден в списке/фиде
 - [ ] PUT `/posts/:id` → обновление успешно
 - [ ] DELETE `/posts/:id` → удаление успешно
 
 ## Public
-- [ ] GET `/public-users/profile/:username` → 200/404 (по данным)
+- [ ] GET `/public-users/profile/:username` → 200 (по данным)
 - [ ] GET `/public-posts` → 200 + массив/пагинация
 
 ## Subs / Catalog / Notifications
