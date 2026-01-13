@@ -26,10 +26,11 @@ Steps:
 4) Проверить ключевые поля профиля (id/userName/email и т.п. — по контракту).
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Структура профиля соответствует контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/profile-info/...`
 
@@ -60,7 +61,7 @@ Steps:
 6) Выполнить TC-USER-001 и проверить, что avatarUrl/поле аватара обновилось (если предусмотрено).
 
 Expected Result:
-- 200/201/2xx по контракту.
+- 200 по контракту.
 - Аватар загружен, профиль отражает изменения.
 
 Postconditions:
@@ -97,7 +98,7 @@ Steps:
 5) Выполнить TC-USER-001 и убедиться, что изменения применились.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Профиль обновлён: значения в ответе/в `profile-info` соответствуют отправленным.
 
 Postconditions:
@@ -128,7 +129,7 @@ Steps:
 4) Выполнить TC-USER-001 и проверить, что avatarUrl очищен/удалён (по контракту).
 
 Expected Result:
-- 200/204/2xx.
+- 200.
 - Аватар удалён, профиль отражает отсутствие аватара.
 
 Postconditions:
@@ -165,10 +166,11 @@ Steps:
 5) Проверить, что ответ содержит список пользователей и/или пагинацию (по контракту).
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Ответ содержит массив пользователей (может быть пустым) и мета-данные пагинации.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/{endCursorUserId}/Search users`
 
@@ -198,7 +200,7 @@ Steps:
 5) Выполнить TC-USER-011 (Get following by user) и убедиться, что пользователь появился в following.
 
 Expected Result:
-- 200/204/2xx по контракту.
+- 200 по контракту.
 - Подписка создаётся.
 
 Postconditions:
@@ -266,10 +268,11 @@ Steps:
 5) Выполнить TC-USER-010 (followers list) и убедиться, что follower удалён.
 
 Expected Result:
-- 200/204/2xx.
+- 200.
 - Подписчик удалён из followers (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/unfollow/{followerId}/Delete follower`
 
@@ -298,10 +301,11 @@ Steps:
 4) Проверить статус и ключевые поля: counts/профиль (по контракту).
 
 Expected Result:
-- 200/2xx (или 404 для несуществующего id — по контракту).
+- 200 (или 404 для несуществующего id — по контракту).
 - Структура профиля соответствует контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/{userId}/profile/...`
 
@@ -334,10 +338,11 @@ Steps:
 5) Проверить массив followers и пагинацию.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Ответ содержит список followers (может быть пустым) и мета-данные (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/followers/{userId}/{endCursorUserId}/...`
 
@@ -369,9 +374,10 @@ Steps:
 4) Проверить статус и структуру массива.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Возвращается список following (может быть пустым), структура соответствует контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/users/following/{userId}/{endCursorUserId}/...`
