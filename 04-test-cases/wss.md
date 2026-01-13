@@ -68,5 +68,6 @@ Expected Result:
 - Нет 500/нечитаемых stack traces наружу.
 
 Postconditions: —
+
 Attachments:
 - Postman: `wss ... /error (Exceptions)` (лог/ответ)
