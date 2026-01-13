@@ -1,30 +1,32 @@
 # Postman / Newman — How to run (Inctagram/Somegram API)
 
-Версия: 1.1  
+Версия: 1.2  
+Проект: **qa-inctagram-api**  
+Источник эндпоинтов: Postman collection `api swagger` (v1)  
+Переменные окружения: `{{baseUrl}}`, `{{bearerToken}}`
 
 ---
 
-## Files
-- `collection.json` — Postman collection (источник правды по эндпоинтам)
-- `environment.example.json` — пример окружения (без секретов)
-- `postman-tests-snippets.md` — примеры автопроверок (pm.test)
-- `newman-run.md` — команды запуска newman + отчёт
-- `github-actions-newman.yml` — пример CI (GitHub Actions)
-- `evidence/` — (опционально) сохранённые ответы/примеры для багов/отчёта
+## Структура папки `08-postman/`
+
+`08-postman/`
+- `README.md` — (как запускать и как хранить)
+- `collection.json` — Postman collection
+- `environment.example.json` — пример окружения
+- `postman-tests-snippets.md` — 10 готовых блоков проверок для вкладки **Tests** (включая Helpers)
 
 ---
 
-## Postman setup
-1) Импортировать коллекцию:
-   - Postman → Import → выбрать `08-postman/collection.json`
-2) Импортировать окружение:
-   - Import → выбрать `08-postman/environment.example.json`
-3) Заполнить переменные в Environment:
-   - `baseUrl` (обязательно)
-   - `bearerToken` (оставить пустым — заполнится из login)
+## Быстрый старт в Postman
 
----
+### 1) Импорт коллекции
+Postman → **Import** → выбрать файл:  
+`08-postman/collection.json`
 
-## Notes (security)
-- Не коммить реальные токены/пароли/почты.
-- Для CI использовать GitHub Secrets (например `BASE_URL`) и подстановку в env на раннере.
+### 2) Импорт окружения
+Postman → **Import** → выбрать файл:  
+`08-postman/environment.example.json`
+
+### 3) Настроить переменные окружения (Environment)
+- `baseUrl` — **обязательно** (пример: `https://<host>`)
+- `bearerToken` — оставить пустым (заполнится после логина)
