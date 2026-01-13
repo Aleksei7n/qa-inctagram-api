@@ -1,6 +1,6 @@
 # QA Case — Inctagram API (Postman/Newman)
 
-Портфолио-кейс по тестированию REST API **Inctagram / Somegram**: требования/инвентарь, тест-план, чек-листы, тест-кейсы, баг-репорты, отчёт, матрица покрытия + Postman/Newman артефакты.
+Портфолио-кейс по тестированию REST API **Inctagram / Somegram**: требования, тест-план, чек-листы, тест-кейсы, баг-репорты, отчёт, матрица покрытия + Postman артефакты.
 
 Источник эндпоинтов: Postman-коллекция (Swagger-based) — `08-postman/collection.json`.
 
