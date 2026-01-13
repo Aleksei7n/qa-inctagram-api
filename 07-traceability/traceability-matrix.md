@@ -1,7 +1,7 @@
 # Traceability Matrix — Inctagram/Somegram API (v1)
 
 Версия: 1.1  
-Источник: `08-postman/collection.json` + Swagger (если доступен)  
+Источник: `08-postman/collection.json` + Swagger  
 Цель: связать высокоуровневые требования/фичи с тестовым покрытием (TC) и критичными дефектами (BUG).
 
 ---
