@@ -63,6 +63,7 @@ Expected Result:
 - Состояние уведомления меняется согласно контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/notifications/read/{notificationId}/...`
 
@@ -92,5 +93,6 @@ Expected Result:
 - При активном WS уведомление доставляется в канал.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/notifications/testing/...`
