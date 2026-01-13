@@ -1,4 +1,4 @@
-# Regression Checklist — Inctagram API (v1)
+# Regression Checklist — Inctagram/Somegram API (v1)
 
 ## Общие проверки (для каждого эндпоинта)
 - [ ] Корректный HTTP status code (success / error)
