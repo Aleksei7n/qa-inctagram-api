@@ -6,7 +6,9 @@
 ---
 
 ```js
-## 0) Helpers
+
+0) Helpers
+
 // ===== Helpers =====
 function expectStatusIn(codes) {
   pm.test(`Status is one of [${codes.join(", ")}]`, () => {
