@@ -24,11 +24,12 @@ Steps:
 3) Зафиксировать статус и ответ.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - В ответе возвращается число/объект с total count (по контракту).
 - Нет 500.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/public-users/...`
 
@@ -56,9 +57,10 @@ Steps:
 4) Проверить статус и структуру публичного профиля.
 
 Expected Result:
-- 200/2xx (или 404, если userId не существует — по контракту).
+- 200 (или 404, если userId не существует — по контракту).
 - Ответ содержит только публичные поля (без приватных данных).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/public-users/profile/{userId}/...`
