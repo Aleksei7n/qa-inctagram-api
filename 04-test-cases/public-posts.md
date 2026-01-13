@@ -68,6 +68,7 @@ Expected Result:
 - Ответ соответствует контракту публичного поста.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/public-posts/{postId}/...`
 
@@ -102,5 +103,6 @@ Expected Result:
 - Возвращается список комментариев (может быть пустым), структура по контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/public-posts/comments/{postId}/...`
