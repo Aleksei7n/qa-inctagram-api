@@ -139,6 +139,7 @@ Expected Result:
 - Нет 500/stack trace.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/auth/google/...`
 
