@@ -61,5 +61,6 @@ Expected Result:
 - Возвращается список городов, структура соответствует контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/country-catalog/{countryId}/city/...`
