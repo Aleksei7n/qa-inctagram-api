@@ -1,7 +1,7 @@
 # Test Summary Report — Inctagram API (v1)
 
 Версия: 1.1  
-Проект: Inctagram API  
+Проект: Inctagram/Somegram API  
 Окружение по умолчанию: Postman (Desktop), baseUrl={{baseUrl}}  
 
 ---
