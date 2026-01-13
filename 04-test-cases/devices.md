@@ -63,6 +63,7 @@ Expected Result:
 - Завершённая сессия больше не возвращается в списке.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/devices/terminate/{deviceId}/End session by ID`
 
@@ -91,5 +92,6 @@ Expected Result:
 - Дополнительные сессии завершены (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/devices/terminate/End all sessions...`
