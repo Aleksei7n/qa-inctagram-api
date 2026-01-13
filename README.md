@@ -49,16 +49,6 @@
 
 ---
 
-## How to run (quick)
-1) Открой `08-postman/collection.json` в Postman (Import).
-2) Импортируй окружение `08-postman/environment.example.json` и заполни:
-   - `baseUrl` — обязателен
-   - `bearerToken` — оставь пустым (заполнится после login, если используешь snippet)
-3) Для примеров автопроверок смотри `08-postman/postman-tests-snippets.md`.
-4) Прогон через CLI: команды в `08-postman/newman-run.md`.
-
----
-
 ## Notes
 - Не коммить реальные токены/пароли/почты — используй environment/Secrets.
 - Часть сценариев (confirmation/recovery) может зависеть от внешнего mail сервиса и быть ограничена на стенде.
