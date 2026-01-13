@@ -78,9 +78,9 @@
   - `08-postman/evidence/BUG-002_registration_invalid_email_request.json`
   - `08-postman/evidence/BUG-002_registration_invalid_email_response.json`
 
-  ---
+---
 
-  # BUG-003
+# BUG-003
 
 **ID:** BUG-003  
 **Title:** Posts: User B can update/delete post of User A (authorization/IDOR issue)  
