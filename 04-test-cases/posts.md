@@ -109,6 +109,7 @@ Expected Result:
 - Ответ содержит список постов и мета-данные (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/posts/{userId}/{endCursorPostId}/Get user posts`
 
@@ -247,6 +248,7 @@ Expected Result:
 - Повтор не приводит к 500; поведение предсказуем.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/posts/comments/like/{commentId}/...`
 
@@ -282,6 +284,7 @@ Expected Result:
 - Возвращается список answer-comments (включая созданный ранее), структура по контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/posts/comments/{commentId}/answer-comment/...`
 
