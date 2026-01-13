@@ -2,7 +2,7 @@
 
 Версия: 1.2  
 Проект: **qa-inctagram-api**  
-Источник эндпоинтов: Postman collection `api swagger` (v1)  
+Источник эндпоинтов: Postman collection `collection.json` (v1)  
 Переменные окружения: `{{baseUrl}}`, `{{bearerToken}}`
 
 ---
@@ -27,6 +27,6 @@ Postman → **Import** → выбрать файл:
 Postman → **Import** → выбрать файл:  
 `08-postman/environment.example.json`
 
-### 3) Настроить переменные окружения (Environment)
+### 3) Настрой переменные окружения (Environment)
 - `baseUrl` — **обязательно** (пример: `https://<host>`)
-- `bearerToken` — оставить пустым (заполнится после логина)
+- `bearerToken` — оставь пустым (заполнится после логина)
