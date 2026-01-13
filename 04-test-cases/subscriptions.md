@@ -30,7 +30,7 @@ Steps:
 4) Проверить статус и наличие paymentUrl/transactionId.
 
 Expected Result:
-- 200/201/2xx (или предсказуемая заглушка на стенде).
+- 200 (или предсказуемая заглушка на стенде).
 - В ответе есть данные для оплаты/идентификаторы (по контракту).
 - Нет 500.
 
@@ -93,10 +93,11 @@ Steps:
 3) Проверить статус и поля статуса подписки (активна/не активна/план/даты — по контракту).
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Поля статуса подписки соответствуют контракту.
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/subscriptions/info/...`
 
@@ -123,10 +124,11 @@ Steps:
 4) Выполнить TC-SUB-003 и проверить, что autoRenewal выключен (по контракту).
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Автопродление выключено (подтверждается `info`).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/subscriptions/disable-auto-renewal/...`
 
@@ -153,10 +155,11 @@ Steps:
 4) Выполнить TC-SUB-003 и проверить флаг авто-продления.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Автопродление включено (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/subscriptions/enable-auto-renewal/...`
 
@@ -183,10 +186,11 @@ Steps:
 4) Выполнить TC-SUB-003 и проверить, что подписка отменена/не активна (по контракту).
 
 Expected Result:
-- 200/204/2xx.
+- 200.
 - Подписка отменена (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/subscriptions/testing/cancel-subscription/...`
 
@@ -215,9 +219,10 @@ Steps:
 4) Проверить статус и структуру.
 
 Expected Result:
-- 200/2xx.
+- 200.
 - Предсказуемая структура списка платежей (по контракту).
 
 Postconditions: —
+
 Attachments:
 - Postman: `api/v1/subscriptions/testing/my-payments/...`
